@@ -1,0 +1,54 @@
+body {
+	background: rgb(11,65,172);
+	background: linear-gradient(90deg, rgba(11,65,172,1) 16%, rgba(26,138,161,1) 91%);
+}
+
+.navigation div {
+	height: 5px;
+	background: #ffffff;
+	margin: 4px 0;
+	border-radius: 24px;
+	transition: 0.3s;
+}
+
+.navigation {
+	display: block;
+	margin: 2em 0 0 2em;
+	width: 50px;
+}
+
+.first, .second, .third{
+	-webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+	width: 40px;
+}
+
+
+.navigation:hover .first {
+	
+	  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+  left: 8px;
+}
+
+.navigation:hover .second {
+  width: 0%;
+  opacity: 0;
+}
+
+.navigation:hover .third {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 39px;
+  left: 8px;
+}
+}
+
+
